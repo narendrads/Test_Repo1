@@ -9,7 +9,7 @@ import { Homepage } from './Home.component/home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode baseName='http://localhost:8080'>
   <Homepage/>
   </React.StrictMode>
 );
